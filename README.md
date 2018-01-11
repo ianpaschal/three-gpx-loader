@@ -33,4 +33,5 @@ let route = new Three.Line( geometry, new Three.LineBasicMaterial({ color: 0xff0
 
 ## License
 [MIT](LICENSE)
-© Ian Paschal, 2018.
+
+© 2018, Ian Paschal.
