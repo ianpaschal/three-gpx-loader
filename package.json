@@ -1,6 +1,6 @@
 {
   "name": "three-gpx-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load .gpx files as Three.js geometry.",
   "main": "src/index.js",
   "scripts": {
