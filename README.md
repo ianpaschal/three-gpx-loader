@@ -41,8 +41,9 @@ let Three = require( "three" );
 
 let GPXLoader = require( "three-gpx-loader" )( Three );
 
-let loader = Three.GPXLoader();
-let path = "../input/gpx/col-du-galibier.gpx"
+let scene = new Three.Scene();
+let loader = new Three.GPXLoader();
+let path = "../input/gpx/col-du-galibier.gpx";
 let onError = function( err ) {
 	console.log( err );
 }
@@ -76,8 +77,8 @@ for ( let i = 0; i < points.length; i++ ) {
 	if ( points[ i + 1 ] ) {
 
 		// Compute distance and bearing between the current and next point:
-		let d = getDistance( points[ i ], points[ i + 1 ] );
-		let b = getBearing( points[ i ], points[ i + 1 ] );
+		d = getDistance( points[ i ], points[ i + 1 ] );
+		b = getBearing( points[ i ], points[ i + 1 ] );
 
 		// Using the results, push a new vertex to the vertices array:
 		vertices.push( new Three.Vector3(
