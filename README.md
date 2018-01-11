@@ -2,11 +2,11 @@
 Load .gpx files as Three.js geometry.
 
 <p>
-	<a href="https://www.npmjs.com/package/three-gpx-loader">
-		<img src="https://img.shields.io/npm/v/npm.svg" />
+	<a href="https://github.com/ianpaschal/polyply/blob/master/LICENSE">
+		<img src="https://img.shields.io/npm/v/three-gpx-loader.svg" />
 	</a>
-	<a href="https://www.npmjs.com/package/three-gpx-loader">
-		<img src="https://img.shields.io/npm/dt/express.svg" />
+	<a href="https://github.com/ianpaschal/polyply/blob/master/LICENSE">
+		<img src="https://img.shields.io/npm/dt/three-gpx-loader.svg" />
 	</a>
 	<a href="https://github.com/ianpaschal/three-gpx-loader/blob/master/LICENSE">
 		<img src="https://img.shields.io/github/license/ianpaschal/three-gpx-loader.svg" />
