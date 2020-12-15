@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ianpaschal/three-gpx-loader#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "three": "^0.89.0",
+    "three": "^0.120.1",
     "xml2js": "^0.4.19"
   }
 }
